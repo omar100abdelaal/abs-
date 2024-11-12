@@ -1,0 +1,39 @@
+.season-collections {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .season-collections h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+  }
+  
+  .collection-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+
+  .collection-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .collection-card h3 {
+    margin: 10px 0;
+  }
+  .more-button {
+    padding: 10px 20px;
+    background-color: #F7F6F0;
+    color: #000;
+    border: none;
+    border-radius: 24px; /* Rounded corners */
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px; /* Adjust the font size as needed */
+  }
+  
+  .more-button:hover {
+    background-color: #e0ddd3; /* Slightly darker background color on hover */
+  } 

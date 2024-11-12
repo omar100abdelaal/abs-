@@ -1,0 +1,98 @@
+.community-section {
+  display: flex;
+  padding: 40px;
+  background-color: #F7F6F0;
+  border: 1px solid #F7F6F0;
+}
+
+.benefits-section {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.benefits-section .title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.benefits-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1.8;
+}
+
+.benefits-list li {
+  margin-bottom: 10px;
+}
+
+.form-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Add vertical line between the two sections */
+.community-section .vertical-line {
+  width: 1px;
+  background-color: black;
+  margin: 0 20px; /* Adjust spacing between sections */
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-button {
+  padding: 10px 20px;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.separator {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+  border-bottom: 1px solid black; /* Changed to black */
+  line-height: 0.1em;
+  position: relative;
+}
+
+.separator:before {
+  content: " ";
+  background: #f9f9f9;
+  padding: 0 10px;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.google-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 20px; /* Reduced padding */
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 50px; /* Capsule shape */
+  cursor: pointer;
+  width: auto; /* Width adjusts based on content */
+  margin: 0 auto; /* Centers the button horizontally */
+}
+
+.google-button img {
+  width: 16px; /* Adjusted image size */
+  margin-right: 8px; /* Adjusted margin */
+}

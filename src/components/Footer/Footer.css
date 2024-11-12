@@ -1,0 +1,59 @@
+.footer {
+  padding: 20px 30px;
+  background-color: white; /* White background */
+  color: black; /* Black text */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.signature {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer-links,
+.social-section {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.footer-links a,
+.footer-underlinks a {
+  color: black;
+  margin-bottom: 8px;
+  text-decoration: none;
+}
+
+.bold-black {
+  font-weight: bold;
+  color: black;
+}
+
+.social-section a {
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row; /* Icons displayed horizontally */
+  align-items: center;
+  gap: 10px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.footer-underlinks {
+  display: flex;
+  flex-direction: row; /* Display links horizontally */
+  gap: 15px; /* Spacing between links */
+  justify-content: flex-end; /* Align to the right */
+  margin-top: 20px;
+  width: 100%; /* Full width to push it to the lower right */
+}

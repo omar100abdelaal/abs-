@@ -1,0 +1,13 @@
+.hero-section {
+  background-image: url('../../images/Banner 1.png');
+  background-size: contain; /* Ensures the image maintains its original size */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image in the section */
+  color: white;
+  text-align: center;
+  padding: 80px 0; /* Removed left and right padding */
+  width: 100vw; /* Full viewport width */
+  margin: 0; /* Removes any margin */
+  height: auto; /* Adjusts height to ensure the image is fully displayed */
+  min-height: 400px; /* Optional: set a minimum height */
+}
